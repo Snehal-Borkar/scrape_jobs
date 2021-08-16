@@ -20,4 +20,6 @@ from job_data import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.internshala),
+    path('talentrack/',views.talentrack),
+    path('iimjob/',views.iimjob),
 ]
